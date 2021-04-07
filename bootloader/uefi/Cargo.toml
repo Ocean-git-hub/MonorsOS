@@ -1,0 +1,11 @@
+[package]
+name = "uefi"
+version = "0.0.0"
+authors = ["Ocean-git-hub <57902508+Ocean-git-hub@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+boot_protocol = { path = "../../boot_protocol" }
+x86_64 = { path = "../../libs/arch/x86_64" }
+elf = { path = "../../libs/elf" }
+uefi_wrapper = { path = "../../libs/uefi/uefi_wrapper", features = ["alloc"] }

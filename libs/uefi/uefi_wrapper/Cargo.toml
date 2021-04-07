@@ -1,0 +1,11 @@
+[package]
+name = "uefi_wrapper"
+version = "0.0.0"
+authors = ["Ocean-git-hub <57902508+Ocean-git-hub@users.noreply.github.com>"]
+edition = "2018"
+
+[features]
+alloc = []
+
+[dependencies]
+uefi_core = { path = "../uefi_core" }

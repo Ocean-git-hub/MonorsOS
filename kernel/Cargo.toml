@@ -1,0 +1,8 @@
+[package]
+name = "kernel"
+version = "0.0.0"
+authors = ["Ocean-git-hub <57902508+Ocean-git-hub@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+boot_protocol = { path = "../boot_protocol" }

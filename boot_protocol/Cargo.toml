@@ -1,0 +1,8 @@
+[package]
+name = "boot_protocol"
+version = "0.0.0"
+authors = ["Ocean-git-hub <57902508+Ocean-git-hub@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+uefi_wrapper = { path = "../libs/uefi/uefi_wrapper"}
